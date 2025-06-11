@@ -1,0 +1,77 @@
+/* style.css */
+
+/* Tema warna SmartLib */
+:root {
+  --primary-color: #4e73df;
+  --secondary-color: #f8f9fc;
+  --accent-color: #1cc88a;
+  --text-color: #323232;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: var(--secondary-color);
+  color: var(--text-color);
+}
+
+.navbar-brand {
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.sidebar {
+  min-height: 100vh;
+  background-color: var(--primary-color);
+}
+
+.sidebar .nav-link {
+  color: #fff;
+  font-weight: 500;
+}
+
+.sidebar .nav-link.active,
+.sidebar .nav-link:hover {
+  background-color: rgba(255,255,255,0.2);
+}
+
+.page-title {
+  margin-bottom: 1.5rem;
+  font-weight: 600;
+}
+
+.card {
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.table thead {
+  background-color: var(--primary-color);
+  color: #fff;
+}
+
+.btn-accent {
+  background-color: var(--accent-color);
+  border-color: var(--accent-color);
+  color: #fff;
+}
+
+.btn-accent:hover {
+  background-color: #17a673;
+  border-color: #17a673;
+}
+
+.status-available {
+  color: #1cc88a;
+  font-weight: 600;
+}
+
+.status-borrowed {
+  color: #e74a3b;
+  font-weight: 600;
+}
+
+.footer {
+  text-align: center;
+  padding: 1rem 0;
+  font-size: 0.9rem;
+  color: #6c757d;
+}
