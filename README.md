@@ -56,8 +56,28 @@ Aplikasi ini dirancang untuk memenuhi kebutuhan pengelolaan perpustakaan sederha
 ---
 
 ## ⚙️ Cara Instalasi (Localhost)
-
-1. **Clone atau unduh repo ini** ke direktori `htdocs` (XAMPP) atau `www` (Laragon):
-
+1. Clone repository ini ke folder Laragon:
    ```bash
-   git clone https://github.com/username/smartlib.git
+   git clone https://github.com/Riskiii098/ProjekWEBPrak.git
+
+2. Pindahkan ke direktori:
+   ```bash
+D:\laragon\www\smartlib
+
+3. Import database smartlib.sql ke phpMyAdmin
+
+4. Konfigurasi file includes/db.php:
+   ```bash
+   $host = "localhost";
+$user = "root";
+$pass = "";
+$db   = "smartlib";
+
+5.Jalankan di browser:
+   ```bash
+   http://localhost/smartlib/login.php
+
+6. Login Admin:
+```bash
+username: admin
+Password: admin123
