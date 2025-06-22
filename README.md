@@ -55,6 +55,18 @@ Aplikasi ini dirancang untuk memenuhi kebutuhan pengelolaan perpustakaan sederha
 
 ---
 
+## 🗂️ Fitur Utama
+
+- 🔍 **Manajemen Buku** (CRUD + gambar cover)
+- 🧑‍🤝‍🧑 **Manajemen Anggota**
+- 🏷️ **Kategori Buku**
+- 📖 **Peminjaman & Pengembalian**
+- 💸 **Perhitungan Denda Otomatis**
+- 📊 **Statistik Ringkas**
+- 🔐 **Login Admin**
+- 💬 **Notifikasi interaktif (SweetAlert2)**
+
+---
 ## ⚙️ Cara Instalasi (Localhost)
 1. Clone repository ini ke folder Laragon:
    ```bash
